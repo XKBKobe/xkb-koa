@@ -8,7 +8,7 @@ router.get('/', function *(next) {
 
 router.get('/foo', function *(next) {
   yield this.render('index', {
-    title: 'Hello World foo!'
+    title: 'Hello World foo! baby'
   });
 });
 
